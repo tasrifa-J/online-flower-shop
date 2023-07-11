@@ -7,6 +7,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* header css start */
+
 header {
     background: rgba(229, 84, 115, 0.10);
 
@@ -21,16 +23,16 @@ header {
 
 .container {
     max-width: 1350px;
-    display: flex;
+    margin: 0 auto;
 }
 
-.cover{
-    padding: 50px 0px 50px;
+.cover {
+    padding-top: 50px;
     display: flex;
     align-items: center;
 }
 
-.head-left{
+.head-left {
     max-width: 700px;
 }
 
@@ -49,7 +51,7 @@ header {
     padding: 30px 0 30px;
 }
 
-.head-left>button {
+button {
     border-radius: 8px;
     padding: 20px 43px;
     background: #E55473;
@@ -64,4 +66,108 @@ header {
     width: 635px;
     height: 800px;
     margin-left: 20px;
+}
+
+/* featured flower css start */
+
+#featured-flowers {
+    padding-top: 150px;
+}
+
+
+.featured-title {
+    max-width: 594px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-title>h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-title>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+.flowers {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.featured-flowers {
+    margin-left: 20px;
+    max-width: 450px;
+    max-height: 500px;
+    text-align: center;
+}
+
+.featured-flowers p {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 32px;
+    text-decoration-line: underline;
+}
+
+.featured-flowers .flower-1 {
+    padding: 110px 76px 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+}
+
+.featured-flowers .flower-2 {
+    padding: 110px 76px 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.featured-flowers .flower-3 {
+    padding: 110px 76px 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
+/* Hot deal css start */
+
+#hot-deal-section{
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+
+.hot-deal{
+    margin-top: 260px;
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.hot-deal-left{
+    text-align: center;
+}
+
+.hot-deal-left h2{
+    color:#272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 595px;
+    padding: 30px 0 30px;
 }
