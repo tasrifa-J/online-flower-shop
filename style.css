@@ -36,13 +36,13 @@ header {
     max-width: 700px;
 }
 
-.head-left > h2 {
+.head-left>h2 {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
 }
 
-.head-left > p {
+.head-left>p {
     color: #272727;
     max-width: 635px;
     font-size: 18px;
@@ -62,7 +62,7 @@ button {
     cursor: pointer;
 }
 
-.head-right > img {
+.head-right>img {
     width: 635px;
     height: 800px;
     margin-left: 20px;
@@ -81,13 +81,13 @@ button {
     text-align: center;
 }
 
-.featured-title > h3 {
+.featured-title>h3 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
 
-.featured-title > p {
+.featured-title>p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -97,7 +97,7 @@ button {
 
 .flowers {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 70px;
 }
 
@@ -140,34 +140,79 @@ button {
 
 /* Hot deal css start */
 
-#hot-deal-section{
+#hot-deal-section {
     background: rgba(229, 84, 115, 0.10);
-    
+
 }
 
-.hot-deal{
+.hot-deal {
     margin-top: 260px;
     padding: 80px 80px;
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
 }
 
-.hot-deal-left{
+.hot-deal-left {
     text-align: center;
 }
 
-.hot-deal-left h2{
-    color:#272727;
+.hot-deal-left h2 {
+    color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
 
-.hot-deal-left p{
+.hot-deal-left p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     max-width: 595px;
     padding: 30px 0 30px;
+}
+
+/* newsletter css start */
+
+main .form {
+    margin-top: 100px;
+    width: 100%;
+    background-image: url('Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    padding: 120px 100px;
+}
+
+.newsletter-title {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter-title > h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.newsletter-title > p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+.form .input-area {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.form .input-area input {
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 20px;
+    margin-right: 20px;
+    width: 620px;
 }
