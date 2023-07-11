@@ -36,13 +36,13 @@ header {
     max-width: 700px;
 }
 
-.head-left>h2 {
+.head-left > h2 {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
 }
 
-.head-left>p {
+.head-left > p {
     color: #272727;
     max-width: 635px;
     font-size: 18px;
@@ -62,7 +62,7 @@ button {
     cursor: pointer;
 }
 
-.head-right>img {
+.head-right > img {
     width: 635px;
     height: 800px;
     margin-left: 20px;
@@ -81,13 +81,13 @@ button {
     text-align: center;
 }
 
-.featured-title>h3 {
+.featured-title > h3 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
 
-.featured-title>p {
+.featured-title > p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
