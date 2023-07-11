@@ -143,7 +143,6 @@ button {
 
 #hot-deal-section {
     background: rgba(229, 84, 115, 0.10);
-
 }
 
 .hot-deal {
@@ -172,6 +171,84 @@ button {
     max-width: 595px;
     padding: 30px 0 30px;
 }
+
+/* Customized form css start */
+
+#customized-section {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.form-area {}
+
+.form-area h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 550px;
+}
+
+.form-area p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 595px;
+    padding: 30px 0 30px;
+}
+
+.form-area form {
+    display: block;
+}
+
+form fieldset {
+    padding: 30px 30px;
+    margin-bottom: 20px;
+}
+
+
+form fieldset legend, label {
+    color: #111010;
+    font-size: 18px;
+}
+
+
+
+form fieldset input[type=text],
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0;
+    box-sizing: border-box;
+}
+
+
+form fieldset input[type=color]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0;
+}
+
+form fieldset select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0;
+    box-sizing: border-box;
+}
+
+form fieldset input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin: 16px 10px;
+}
+
+form fieldset textarea{
+    padding: 12px 20px;
+    margin: 16px 0;
+    box-sizing: border-box;
+}
+
+
+
 
 /* newsletter css start */
 
@@ -232,6 +309,6 @@ footer h2 {
     font-weight: 800;
 }
 
-.footer-text > p{
+.footer-text>p {
     color: white;
 }
