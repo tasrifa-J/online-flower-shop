@@ -115,6 +115,7 @@ button {
     line-height: 35px;
     padding-top: 32px;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .featured-flowers .flower-1 {
@@ -188,13 +189,13 @@ main .form {
     text-align: center;
 }
 
-.newsletter-title > h3 {
+.newsletter-title>h3 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
 
-.newsletter-title > p {
+.newsletter-title>p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -215,4 +216,22 @@ main .form {
     padding: 20px 20px;
     margin-right: 20px;
     width: 620px;
+}
+
+/* footer css start */
+
+footer {
+    background: #111010;
+    margin-top: 80px;
+    padding: 80px 80px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-text > p{
+    color: white;
 }
